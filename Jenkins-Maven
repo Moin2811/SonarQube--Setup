@@ -43,8 +43,8 @@ sudo yum remove maven -y
 wget https://mirrors.estointernet.in/apache/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz
 or
 wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
-sudo tar xf apache-maven-*.tar.gz -C /opt
-sudo ln -s /opt/apache-maven-3.8.5 /opt/maven
+sudo tar xf apache-maven-3.9.9-bin.tar.gz -C /opt
+sudo ln -s /opt/apache-maven-3.9.9/ /opt/maven
 /opt/maven/bin/mvn archetype:generate -DgroupId=test.app -DartifactId=myjava-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 git init
 git add .
