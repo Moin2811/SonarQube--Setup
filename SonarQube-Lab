@@ -6,7 +6,7 @@ Now Login to the Jenkins node and install sonar cli
 Select the repository and click on configure Analysis
 Select other in the scan type
 Download sonar binary
-lattps://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
+https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
 
 /opt/maven/bin/mvn sonar: sonar \
 -Dsonar -projectkey=reposittory \
