@@ -12,7 +12,7 @@ https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cl
   -Dsonar.projectKey=Moin2811_newfsatest \
   -Dsonar.organization=moin2811 \
   -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login= is is available in Administration / Analysis Method > Analyze a project manually > maven > Value of the environment variable
+  -Dsonar.login= it is available in Administration / Analysis Method > Analyze a project manually > maven > Value of the environment variable
 
 
 
