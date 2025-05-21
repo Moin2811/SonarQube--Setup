@@ -12,5 +12,33 @@ https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cl
   -Dsonar.projectKey=Moin2811_newfsatest \
   -Dsonar.organization=moin2811 \
   -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=54b37bef6e6254c68d2f4d1a6668f667e056f91c
+  -Dsonar.login= is is available in Administration / Analysis Method > Analyze a project manually > maven > Value of the environment variable
+
+
+
+
+#Below is the Chatgpt version 
+
+SonarQube Setup
+1. Create a login in SonarCloud.io with GitHub credentials
+https://sonarcloud.io
+
+2. Click on the '+' sign on the top and select "Add new project to analyse"
+
+ 3. Now login to the Jenkins node and install Sonar CLI
+
+ 4. Select the repository and click on "Configure Analysis"
+
+ 5. Select "Other" in the scan type
+
+ 6. Download Sonar binary
+    https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
+
+ 7. Run Maven Sonar analysis
+
+/opt/maven/bin/mvn sonar:sonar \
+  -Dsonar.projectKey=Moin2811_newfsatest \
+  -Dsonar.organization=moin2811 \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=54b37bef6e6254c68d2f4d1a6668f667efngvefj
 
